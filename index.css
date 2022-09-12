@@ -10,7 +10,7 @@ body{
 
 /* CSS HEADER */
 .encabezado{
-    width: 100vw;
+    width: 100%;
     height: 100vh;
     background-color: #f7de81;
 }
@@ -26,6 +26,7 @@ ul{
 li{
     display: inline-block;
     margin: 0px 30px;
+    color: #0B4DA2;
 }
 .encabezado-segundo{
     display:flex;
@@ -49,7 +50,8 @@ li{
 .encabezado-segundo-izquierdo button{
     background-color: #0B4DA2;
     height: 40px;
-    width: 40%;
+    width: 50%;
+    margin-top: 10px;
     color: white;
     border:none;
     border-radius: 10px;
@@ -70,4 +72,34 @@ li{
     align-items: center;
     justify-content: center;
     flex-direction: column;
+}
+.section-primero h2{
+    color: #f7de81;
+    font-size: 80px;
+    font-weight: 800;
+}
+.section-primero p{
+    color: white;
+    font-size: 30px;
+    font-weight: 200;
+}
+.section-primero-contenedor{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    margin-top: 150px;
+}
+.container-info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 20%;
+}
+.container-info p{
+    margin-top: 20px;
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    font-weight: 50;
 }
