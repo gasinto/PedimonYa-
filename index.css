@@ -57,6 +57,7 @@ li{
     border-radius: 10px;
     text-transform: uppercase;
     padding: 12px;
+    font-size: 1.1rem;
 }
 .encabezado-segundo-derecho img{
     width: 100%;
@@ -102,4 +103,17 @@ li{
     color: white;
     font-size: 25px;
     font-weight: 50;
+}
+/* Media Queries Laptop L */
+@media(max-width: 1440px) and (min-width:1024px){
+    .encabezado-segundo-izquierdo button{
+        font-size: 0.8rem;
+    }
+}
+/* Media Queries Laptop */
+@media(max-width: 1023px){
+    .encabezado-segundo-izquierdo button{
+        font-size: 1rem;
+        width: 100%;
+    }
 }
